@@ -84,4 +84,81 @@ button {
   margin-right: auto;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.hero {
+  background-image: url(/img/hero_bgrnd.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  padding-bottom: 386px;
+}
+
+.header {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 243px;
+}
+
+.header__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__nav-item {
+  margin-right: 60px;
+}
+.header__nav-item:last-child {
+  margin-right: 0;
+}
+
+.header__logo {
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 38px;
+  color: #37447e;
+}
+
+.header__button {
+  padding: 8px 57px;
+}
+
+.hero__content {
+  max-width: 540px;
+}
+
+.hero__content-title {
+  margin-bottom: 20px;
+}
+
+.hero__content-text {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 69px;
+}
+
+.hero__content-purchase-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 3px 40px 3px 40px;
+  margin-right: 26px;
+}
+
+.hero__content-learn-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--complementary-color);
+  background-color: transparent;
+  border: 2px solid #091133;
+  padding: 1px 52px 1px 52px;
 }/*# sourceMappingURL=main.css.map */
