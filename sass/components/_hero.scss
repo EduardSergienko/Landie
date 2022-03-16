@@ -21,6 +21,10 @@
 	&:last-child {
 		margin-right: 0;
 	}
+	transition: transform 500ms;
+	&:hover {
+		transform: scale(1.1);
+	}
 }
 .header__nav-link {
 }
@@ -33,6 +37,11 @@
 }
 .header__button {
 	padding: 8px 57px;
+	transition: background-color 250ms, color 500ms;
+	&:hover {
+		background-color: #fff;
+		color: var(--main-text-color);
+	}
 }
 
 // ============HERO=============
