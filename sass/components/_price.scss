@@ -1,0 +1,52 @@
+.price {
+	background-image: url(/img/price.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 237px;
+	padding-bottom: 172px;
+}
+.price__title {
+	text-align: center;
+	margin-bottom: 16px;
+}
+.price__text {
+	max-width: 600px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 35px;
+}
+.price__value {
+	text-align: center;
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 66px;
+
+	letter-spacing: 1px;
+
+	color: #222f65;
+}
+.price__name {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+
+	text-align: center;
+
+	color: #37447e;
+	margin-bottom: 60px;
+}
+.price__subbuttone {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+
+	text-align: center;
+
+	color: #5d6970;
+	margin-bottom: 9px;
+}
+.price__btn {
+	display: block;
+	margin: 0 auto;
+	padding: 5px 35px 5px 35px;
+}
